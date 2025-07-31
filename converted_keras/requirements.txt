@@ -1,0 +1,5 @@
+Flask>=3.1.0
+Flask-Cors>=5.0.0
+tensorflow>=2.15.0,<2.16.0  # Pins to TF 2.15.x
+numpy>=1.24.0
+protobuf>=3.20.3,<4
