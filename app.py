@@ -8,10 +8,10 @@ import os
 app = Flask(__name__)
 
 # Load model
-model = tf.keras.models.load_model('keras_model.h5')
+model = tf.keras.models.load_model('converted_keras/keras_model.h5')
 
 # Load labels
-with open("labels.txt", "r") as f:
+with open("converted_keras/labels.txt", "r") as f:
     labels = [line.strip() for line in f.readlines()]
 
 # Image preprocessing
